@@ -6,9 +6,17 @@ AKIA42YHPCI2RWV6RH6M
 Xl7Gq5VQWDjWzjTSkiVCqmsm9qZOPJ2AaPHff931
 https://882094576181.signin.aws.amazon.com/console
 
+
+//////////////install Serverless/////////////////////////////
+npm install -g serverless
+/////////////set up service serverless ////////////////
+serverless config credentials --provider aws --key xxx --secret yyy --profile severless-admin
+
 /////////////////////////////Deploy function ////////////////
 $ sls deploy -v
 
+/////////////////create template function ////////////////////
+sls create --template nodejs --path getSquare
 /////////////////function envoked ///////////////////////////
 serverless invoke local --function hello --data '{"event.key1":"bar"}'
 
