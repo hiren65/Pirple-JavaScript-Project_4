@@ -14,11 +14,20 @@ serverless config credentials --provider aws --key xxx --secret yyy --profile se
 
 /////////////////////////////Deploy function ////////////////
 $ sls deploy -v
+///////////////////////////////////deploy function //////////
+sls deploy function -f getSquare
+/////////////////update function///////////////
+sls invoke -f getSquare -l
 
 /////////////////create template function ////////////////////
 sls create --template nodejs --path getSquare
 /////////////////function envoked ///////////////////////////
+
+ls invoke -f getSquare -l
+///or with payload as argument to function///////////////////////
 serverless invoke local --function hello --data '{"event.key1":"bar"}'
 
 $ serverless invoke local --function getSquare --data '{"key1":19}'
+
+
 
