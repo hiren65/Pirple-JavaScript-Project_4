@@ -1,0 +1,16 @@
+acess key id : AKIAIFPV6DZJYUJUCK3A
+secreat access key : I0oTvHKbWkzervVHzVmdLKjO3/Mh7vaIKwf+M6Wn
+
+////////////////////
+AKIA42YHPCI2RWV6RH6M
+Xl7Gq5VQWDjWzjTSkiVCqmsm9qZOPJ2AaPHff931
+https://882094576181.signin.aws.amazon.com/console
+
+/////////////////////////////Deploy function ////////////////
+$ sls deploy -v
+
+/////////////////function envoked ///////////////////////////
+serverless invoke local --function hello --data '{"event.key1":"bar"}'
+
+$ serverless invoke local --function getSquare --data '{"key1":19}'
+

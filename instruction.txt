@@ -29,3 +29,6 @@ Turning it In:
 
 One of the first slides in this course is called "How to Turn in Homework" review that slide for details on how to send your assignment to us (and receive a grade).
 
+///////////
+serverless link
+https://serverless.com/framework/docs/providers/aws/cli-reference/create/
