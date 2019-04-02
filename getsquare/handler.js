@@ -2,6 +2,7 @@ console.log('Loading function');
 
 module.exports.getSquare = async (event, context) => {
   //console.log('Received event:', JSON.stringify(event, null, 2));
+
   console.log(`Value`, event.key1);
   // console.log('value2 =', event.key2);
   //console.log('value3 =', event.key3);
