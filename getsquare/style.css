@@ -1,0 +1,87 @@
+*{
+    margin: unset;
+    padding: unset;
+}
+html{
+    background-color: antiquewhite;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#wrapper{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: auto;
+    border: 1px black solid;
+}
+.box{
+    grid-column: 1/2;
+    border: 1px solid black;
+}
+h1{
+    display: block;
+    width: 50%;
+    background-color: brown;
+    margin: auto;
+    text-align: center;
+}
+h2{
+    display: block;
+    width: 100%;
+    //background-color: chocolate;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#div{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    padding: 5px;
+}
+#div1{
+    background-color: azure;
+}
+button{
+    width: 200px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+
+}
+#div2{
+    background-color: black;
+    text-align: center;
+}
+pre{
+    background-color: khaki;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;
+}
+#mpeg{
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid white;
+    display: block;
+}
+p{
+    padding: 5px;
+}
+h3{
+    padding: 5px;
+}
+#slide_platform{
+
+}

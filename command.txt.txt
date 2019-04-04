@@ -1,12 +1,3 @@
-acess key id : AKIAIFPV6DZJYUJUCK3A
-secreat access key : I0oTvHKbWkzervVHzVmdLKjO3/Mh7vaIKwf+M6Wn
-
-////////////////////
-AKIA42YHPCI2RWV6RH6M
-Xl7Gq5VQWDjWzjTSkiVCqmsm9qZOPJ2AaPHff931
-https://882094576181.signin.aws.amazon.com/console
-
-
 //////////////install Serverless/////////////////////////////
 npm install -g serverless
 /////////////set up service serverless ////////////////
@@ -20,14 +11,11 @@ sls deploy function -f getSquare
 sls invoke -f getSquare -l
 
 /////////////////create template function ////////////////////
-sls create --template nodejs --path getSquare
+sls create --template aws-nodejs --path getSquare
 /////////////////function envoked ///////////////////////////
 
-ls invoke -f getSquare -l
+sls invoke -f getSquare -l
 ///or with payload as argument to function///////////////////////
 serverless invoke local --function hello --data '{"event.key1":"bar"}'
 
 $ serverless invoke local --function getSquare --data '{"key1":19}'
-
-
-
