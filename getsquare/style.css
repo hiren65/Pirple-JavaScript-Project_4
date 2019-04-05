@@ -115,3 +115,10 @@ img{
     border: 1px solid dimgrey;
     box-shadow: 2px 3px 4px 4px #888888;
 }
+li{
+    margin-left: 15%;
+
+}
+p{
+    padding: 5px;
+}

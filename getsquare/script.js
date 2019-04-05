@@ -179,12 +179,23 @@ forwardBtn.addEventListener("click",forward);
 
 function forward() {
     count++;
+    if (count>4){
+        count = 0;
+        sliderF(count);
+        return
+    }
+
     //alert(count);
    sliderF(count);
 }
 reverseBtn.addEventListener("click",reverse);
 function reverse() {
     count--;
+    if (count<0){
+        count = 4;
+        sliderF(count);
+        return
+    }
     //alert(count);
     sliderR(count);
 }
