@@ -74,7 +74,7 @@ pre{
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;
 }
-#mpeg{
+#mpeg,#mpeg1{
     margin-left: 20%;
     margin-right: 20%;
     border: 1px solid white;
@@ -117,8 +117,12 @@ img{
 }
 li{
     margin-left: 15%;
-
+    padding: 10px;
 }
 p{
     padding: 5px;
+}
+#title{
+    color: chocolate;
+    font-weight: bold;
 }

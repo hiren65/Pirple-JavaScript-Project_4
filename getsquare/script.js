@@ -21,7 +21,7 @@ let forwardBtn = document.createElement("button");
     forwardBtn.innerText = " >> ";
 
     sl1 = `  <h3>Details:</h3>
-                 <p>
+                 <p id="title">
                  For this assignment you are going to build a simple quick "serverless" 
                  project on AWS Lambda.
                  </p>
@@ -153,7 +153,14 @@ sl4 = `   <h3>Getting Started on Serverless CLI with AWS Lambda by Creating a Ne
             ///or with payload as argument to function///////////////////////
             $ serverless invoke local --function getSquare --data '{"key1":19}'
                   
-      </pre>      
+      </pre> 
+           <h2>Explanation of handler.js and servrless.yml  </h2>
+                   <div id="mpeg1">
+                   <video width="96%" controls >
+                   <source src="../vedio/handlejsAndserverlessyml.mp4" type="video/mp4">
+                   Your browser does not support HTML5 video.
+                   </video>   
+               </div>
       <h2>Five times excution screen cast </h2>
                <div id="mpeg">
                <video width="96%" controls >
